@@ -1,0 +1,5 @@
+
+Edit cron with `crontab -e`
+
+*/15 * * * * /usr/local/bin/beet import -q -i -l /mnt/samba/Private/import.log /mnt/samba/Private/UnsortedMusic/
+

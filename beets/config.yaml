@@ -1,0 +1,12 @@
+library: library.blb
+directory: /mnt/samba/Public/Music/
+
+import:
+    write: yes
+    move: yes
+    resume: no
+    incremental: yes
+    quiet_fallback: asis
+
+paths:
+    singleton: $albumartist/$title%aunique{}/$track $title
